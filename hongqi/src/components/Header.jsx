@@ -8,7 +8,7 @@ import Account from "../images/account.svg";
 const Header = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg my-4">
+      <nav className="navbar navbar-expand-lg my-5">
         <div className="container justify-content-between align-items-center">
           <div className="d-flex">
             <p className="text-secondary" style={{ fontSize: "11px" }}>
