@@ -1,0 +1,33 @@
+@import url("https://fonts.cdnfonts.com/css/gotham");
+a {
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.nav-links > li > a {
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.stick {
+  width: 46px;
+  height: 0px;
+  right: 265px;
+  top: calc(50% - 0px / 2 + 21px);
+  border: 1px solid #ffffff;
+  transform: rotate(-90deg);
+}
+
+.img-small {
+  width: 28px;
+  height: 28px;
+}
