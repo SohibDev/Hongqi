@@ -22,10 +22,11 @@ const Card = () => {
       >
         {isHovered ? (
           <div className="cart-image1" style={{ position: "relative" }}>
+            <div className="shadow"></div>
             <img src={Car1} alt="" className="img1" width="1300" height="700" />
             <div
               className="cart-text1"
-              style={{ position: "absolute", top: "0", left: "0" }}
+              style={{  position: "absolute", top: "0", left: "0" }}
             >
               <h1 className="year-header1">1965</h1>
               <p className="car-model1">Hongi CA770</p>
@@ -33,6 +34,7 @@ const Card = () => {
           </div>
         ) : (
           <div className="cart-image">
+            {/* <div className="activeHover"></div> */}
             <img src={Car1} alt="" />
             <div className={`cart-text`}>
               <h1 className="year-header">1965</h1>
