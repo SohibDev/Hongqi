@@ -1,5 +1,5 @@
 import "./App.css";
-import Card from "./components/Cards";
+import Card from "./components/Cards1";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 
@@ -8,6 +8,9 @@ function App() {
     <>
       <Header />
       <Hero />
+      <Card />
+      <Card />
+      <Card />
       <Card />
     </>
   );

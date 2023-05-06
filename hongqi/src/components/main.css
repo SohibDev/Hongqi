@@ -3,6 +3,7 @@ a {
   text-decoration: none !important;
 }
 
+
 .nav-links {
   display: flex;
   list-style: none;
@@ -30,10 +31,6 @@ a {
 .img-small {
   width: 28px;
   height: 28px;
-}
-
-.hero {
-  margin-bottom: 200px;
 }
 
 .heroImg {
@@ -71,54 +68,3 @@ a {
   color: #ffffff;
 }
 
-.cart {
-  display: flex;
-}
-
-.cart-image {
-  max-width: 690px;
-  max-height: 390px;
-  overflow: hidden;
-}
-
-.cart-image > img {
-  width: 1300px;
-  height: 800px;
-  object-fit: calc();
-}
-
-.cart-image:hover + .cart-text {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-
-
-.year-header {
-  position: absolute;
-  width: 556px;
-  height: 175px;
-  left: 868px;
-  top: 963px;
-  font-family: "Gotham";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 200px;
-  line-height: 300px;
-  color: #ffffff;
-}
-
-.car-model {
-  position: absolute;
-  width: 290px;
-  height: 33px;
-  left: 930px;
-  top: 1203px;
-  font-family: "Proxima Nova";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 40px;
-  line-height: 61px;
-  color: #9e9e9e;
-}
