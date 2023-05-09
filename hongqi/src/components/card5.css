@@ -1,133 +1,128 @@
 .cart5 {
-    max-width: 1300px;
-    max-height: 650px;
-    overflow: hidden;
-  }
-  
-  .cart-image5 {
-    margin-left: 250px;
-    max-width: 690px;
-    max-height: 390px;
-    overflow: hidden;
-    transition: all 1s ease-in-out;
-  }
-  
-  .img5 {
-    z-index: 1000;
-    width: 1200px;
-    margin-top: -100px;
-    height: 100%;
-    object-fit: fill;
-  }
-  
-  .cart-image51 {
-    margin-left: 200px;
-    max-width: 100%;
-    max-height: 100%;
-    overflow: hidden;
-    box-shadow: 95px 35px 33px 13px rgba(0, 0, 0, 0.1);
-    transition: all 1s ease-in-out;
-  }
-  
-  .shadow5 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    transition: all 3s ease-in-out;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(
-      90deg,
-      rgba(0, 0, 0, 0.8033266331123056) 30%,
-      rgba(0, 0, 0, 0.025616068966669165) 80%
-    );
-  }
-  
-  .activeHover5 {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 200;
-    border: 1px solid white;
-    cursor: pointer;
-  }
-  
-  .year-header5 {
-    width: 305px;
-    height: 155px;
-    z-index: -1;
-    margin-left: 950px;
-    margin-top: -33px;
-    font-family: "Gotham";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 160px;
-    line-height: 300px;
-    transition: all 2s ease-in-out;
-    color: #ffffff;
-  }
-  
-  .year-header51 {
-    display: block !important;
-    width: 555px;
-    height: 155px;
-    margin-left: 10px;
-    top: 853px;
-    font-family: "Gotham";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 150px;
-    transition: all 2s ease-in-out;
-    transition-delay: 1s;
-    line-height: 300px;
-    color: #ffffff;
-  }
-  
-  .car-model5 {
-    width: 290px;
-    height: 33px;
-    margin-left: 1000px;
-    margin-top: 133px;
-    font-family: "Proxima Nova";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 50px;
-    z-index: -1;
-    line-height: 41px;
-    color: #9e9e9e;
-    transition: all 1s ease-in-out;
-  }
-  
-  .car-model51 {
-    display: block;
-    width: 400px;
-    height: 33px;
-    margin-left: 30px;
-    margin-top: 53px !important;
-    font-family: "Proxima Nova";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 60px;
-    line-height: 51px;
-    color: #9e9e9e;
-    transition: all 2s ease-in-out;
-  }
-  
-  .car-desc51 {
-    display: block;
-    width: 400px;
-    margin-left: 40px;
-    margin-top: 30px;
-    font-family: "Gotham";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 15px;
-    transition: all 2s ease-in-out;
-    color: #ffffff;
-  }
-  
-  .img51 {
-    width: 100%;
-    height: 100%;
-    transition: all 2s ease-in-out;
-  }
-  
+  max-width: 1200px;
+  max-height: 700px;
+  overflow: hidden;
+}
+
+.cart-image5 {
+  max-width: 690px;
+  max-height: 390px;
+  overflow: hidden;
+  transition: all 1s ease-in-out;
+}
+
+.img5 {
+  width: 1200px;
+  margin-top: -100px;
+  height: 100%;
+  object-fit: contain;
+  transition: all 2s ease-in-out;
+}
+
+.cart-image51 {
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  box-shadow: 95px 35px 33px 13px rgba(0, 0, 0, 0.1);
+  transition: all 1s ease-in-out;
+}
+
+.shadow5 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: all 3s ease-in-out;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.8033265331123075) 30%,
+    rgba(0, 0, 0, 0.027516068966659165) 80%
+  );
+}
+
+.activeHover5 {
+  position: absolute;
+  width: 50%;
+  height: 500%;
+  right: 0px;
+  cursor: pointer;
+}
+
+.year-header5 {
+  width: 406px;
+  height: 175px;
+  margin-left: 10px;
+  margin-top: 100px !important;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 170px;
+  line-height: 100px;
+  transition: all 2s ease-in-out;
+  color: #ffffff;
+}
+
+.year-header51 {
+  display: block !important;
+  width: 556px;
+  height: 175px;
+  margin-left: 10px;
+  margin-top: -50px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 170px;
+  transition: all 2s ease-in-out;
+  transition-delay: 1s;
+  line-height: 300px;
+  color: #ffffff;
+}
+
+.car-model5 {
+  width: 330px;
+  height: 33px;
+  margin-left: 50px;
+  margin-top: 10px;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 45px;
+  z-index: -1;
+  line-height: 11px;
+  color: #9e9e9e;
+  transition: all 1s ease-in-out;
+}
+
+.car-model51 {
+  display: block;
+  width: 330px;
+  height: 33px;
+  margin-left: 40px;
+  margin-top: 53px !important;
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 61px;
+  color: #9e9e9e;
+  transition: all 2s ease-in-out;
+}
+
+.car-desc51 {
+  display: block;
+  width: 400px;
+  margin-left: 40px;
+  margin-top: 30px;
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  transition: all 2s ease-in-out;
+  color: #ffffff;
+}
+
+.img51 {
+  width: 100%;
+  height: 100%;
+  transition: all 2s ease-in-out;
+}
