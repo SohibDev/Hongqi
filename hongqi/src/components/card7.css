@@ -70,11 +70,10 @@
 }
 
 .year-header71 {
-  display: block !important;
   width: 557px;
   height: 175px;
   margin-left: 10px;
-  top: 873px;
+  margin-top: -40px;
   font-family: "Gotham";
   font-style: normal;
   font-weight: 300;
@@ -86,7 +85,7 @@
 }
 
 .car-model7 {
-  width: 290px;
+  width: 330px;
   height: 33px;
   margin-left: 280px;
   margin-top: 73px;
@@ -105,7 +104,7 @@
   width: 400px;
   height: 33px;
   margin-left: 30px;
-  margin-top: 53px !important;
+  margin-top: 40px !important;
   font-family: "Proxima Nova";
   font-style: normal;
   font-weight: 300;

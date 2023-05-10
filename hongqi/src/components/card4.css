@@ -65,11 +65,10 @@
     }
     
     .year-header41 {
-    display: block !important;
     width: 556px;
     height: 175px;
-    margin-left: 120px;
-    top: 873px;
+    margin-left: 20px;
+    margin-top: -40px;
     font-family: "Gotham";
     font-style: normal;
     font-weight: 300;
@@ -81,14 +80,14 @@
     }
     
     .car-model4 {
-    width: 290px;
+    width: 330px;
     height: 33px;
     margin-left: 100px;
     margin-top: 73px;
     font-family: "Proxima Nova";
     font-style: normal;
     font-weight: 300;
-    font-size: 40px;
+    font-size: 50px;
     z-index: -1;
     line-height: 61px;
     color: #9e9e9e;
@@ -99,7 +98,7 @@
     display: block;
     width: 290px;
     height: 33px;
-    margin-left: 150px;
+    margin-left: 40px;
     margin-top: 53px !important;
     font-family: "Proxima Nova";
     font-style: normal;
@@ -113,7 +112,7 @@
     .car-desc41 {
       display: block;
       width: 400px;
-      margin-left: 150px;
+      margin-left: 40px;
       margin-top: 30px;
       font-family: "Gotham";
       font-style: normal;

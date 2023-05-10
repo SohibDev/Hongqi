@@ -67,8 +67,8 @@
   display: block !important;
   width: 556px;
   height: 175px;
-  margin-left: 120px;
-  top: 873px;
+  margin-left: 10px;
+  margin-top: -40px;
   font-family: "Gotham";
   font-style: normal;
   font-weight: 300;
@@ -98,7 +98,7 @@
   display: block;
   width: 290px;
   height: 33px;
-  margin-left: 150px;
+  margin-left: 40px;
   margin-top: 53px !important;
   font-family: "Proxima Nova";
   font-style: normal;
@@ -112,7 +112,7 @@
   .car-desc1 {
     display: block;
     width: 400px;
-    margin-left: 150px;
+    margin-left: 40px;
     margin-top: 30px;
     font-family: "Gotham";
     font-style: normal;

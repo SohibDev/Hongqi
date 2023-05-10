@@ -1,6 +1,6 @@
 .cart2 {
-  max-width: 1350px;
-  max-height: 790px;
+  max-width: 1200px;
+  max-height: 850px;
   overflow: hidden;
 }
 
@@ -87,14 +87,14 @@
 }
 
 .car-model2 {
-  width: 290px;
+  width: 330px;
   height: 33px;
   margin-left: 100px;
   margin-top: 73px;
   font-family: "Proxima Nova";
   font-style: normal;
   font-weight: 300;
-  font-size: 40px;
+  font-size: 50px;
   z-index: -1;
   line-height: 61px;
   color: #9e9e9e;
@@ -222,14 +222,14 @@
 }
 
 .car-model3 {
-  width: 390px;
+  width: 330px;
   height: 33px;
   margin-left: 100px;
   margin-top: 70px;
   font-family: "Proxima Nova";
   font-style: normal;
   font-weight: 300;
-  font-size: 40px;
+  font-size: 50px;
   z-index: -1;
   line-height: 61px;
   color: #9e9e9e;
